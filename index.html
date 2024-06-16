@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用户协议</title>
+    <script>
+        function agree() {
+            window.location.href = "互联网上网指南.docx";
+        }
+
+        function disagree() {
+            window.location.href = "https://www.baidu.com";
+        }
+    </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            text-align: center;
+        }
+        .buttons {
+            text-align: center;
+            margin-top: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 0 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .agree {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .disagree {
+            background-color: #f44336;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>用户协议</h1>
+        <p>请您在下载文件之前仔细阅读以下用户协议：</p>
+        <p>本指南提供了在互联网上网的一些常见问题和解决方案，包括如何下载和安装相关软件，以及常见问题的处理方法。如果您同意本协议，可以下载相关文件。如果您不同意，请点击不同意按钮，您将被重定向到百度。</p>
+        <p>如果您在使用过程中遇到任何问题，可以按照指南中的步骤进行操作，以解决相关问题。</p>
+        <p>感谢您的理解与合作！</p>
+        <div class="buttons">
+            <button class="agree" onclick="agree()">同意</button>
+            <button class="disagree" onclick="disagree()">不同意</button>
+        </div>
+    </div>
+</body>
+</html>
